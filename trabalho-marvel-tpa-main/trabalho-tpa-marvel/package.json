@@ -1,0 +1,24 @@
+{
+  "name": "api-marvel",
+  "version": "1.0.0",
+  "description": "I Trabalho Tópicos Avançados em SI- API MARVEL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage"
+  },
+  "author": "Bruna Barbosa Baggio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dockerfile": "^0.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.0.7"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "supertest": "^6.1.3"
+  }
+}
